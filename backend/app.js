@@ -7,6 +7,8 @@ const categoryRouter = require("./routes/categoryRouter");
 const transactionRouter = require("./routes/transactionRouter");
 const app = express();
 require('dotenv').config();
+console.log(process.env.PORT); // Check if environment variables load correctly
+
 
 
 //!Connect to mongodb
